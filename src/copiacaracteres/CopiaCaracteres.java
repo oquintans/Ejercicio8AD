@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package copiacaraceres;
+package copiacaracteres;
 
 import java.io.File;
 import java.io.FileReader;
@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  *
  * @author oracle
  */
-public class CopiaCaraceres {
+public class CopiaCaracteres {
 
     /**
      * @param args the command line arguments
@@ -32,7 +32,7 @@ public class CopiaCaraceres {
             f1.close();
             f2.close();
         } catch (IOException ex) {
-            Logger.getLogger(CopiaCaraceres.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(CopiaCaracteres.class.getName()).log(Level.SEVERE, null, ex);
 
         }
     }
